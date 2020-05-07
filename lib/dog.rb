@@ -20,5 +20,7 @@ class Dog
   
   def self.clear_all
     @@all.each do |dog|
-     self.empty 
+     self.clear
+   end
+ end
 end
