@@ -2,8 +2,9 @@ class Dog
   attr_accessor :name
   @@all = []
   
-  def initialize.save(name)
+  def initialize(name)
     @name = name
+    @name.save
   end
   def self.all 
     @@all.each do |dog|
